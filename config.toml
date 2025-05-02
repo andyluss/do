@@ -12,7 +12,7 @@ taxonomies = [{ name = "categories" }, { name = "tags" }]
 [extra]
 
 # Only user name is needed
-github = "andyluss"
+github = "andyluss/do"
 show_github_icon = true
 
 # You can add your own items to list in the site navigator
