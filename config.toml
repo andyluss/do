@@ -1,63 +1,24 @@
 base_url = "https://do.lushisang.com"
-title = "干饭猫"
-description = "干饭，就是干！"
-default_language = "zh-cn"
-compile_sass = true
-generate_feeds = true
-# feed_filenames = ["rss.xml"]
-feed_filenames = ["rss.xml", "atom.xml"]
-author = "tinikov"
+title = "😼干饭猫"
+description = "干饭猫，干饭魂，不要怂，就是干！"
+author = "Andy Lu"
 
+default_language = "zh-cn"
 # If used as theme, please uncomment this option
 theme = "re137"
-
 # To enable categories page
-taxonomies = [{ name = "categories" }]
-
-[slugify]
-paths = "safe"
-taxonomies = "safe"
-anchors = "safe"
+taxonomies = [{ name = "categories" }, { name = "tags" }]
 
 [extra]
-# Image shown when you share this website to others
-# ogimage = " "
-
-# SEO settings
-# seo = true
-# google_search_console = " "
-
-# Set up Indiewebring
-indiewebring = true
-
-# Set up Fediring
-fediring = true
-
-# For authentication in mastodon
-mastodon = "https://o3o.ca/@tinikov"
-show_mastodon_icon = true
 
 # Only user name is needed
-github = "tinikov/re137"
+github = "andyluss"
 show_github_icon = true
-
-# Show establish date in the footer
-establishdate = "2024"
-
-# license
-license = true
-# license_type = "CC BY-NC 4.0"
-license_type = "CC BY-NC-ND 4.0"
-# license_canonical_url = "https://creativecommons.org/licenses/by-nc/4.0/"
-license_canonical_url = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
-
-# Show "Zola &laquo; re137" in the footer
-show_zola_theme = true
 
 # You can add your own items to list in the site navigator
 re137_menu_links = [
-    { url = "$BASE_URL", name = "Home 主页" },
-    { url = "$BASE_URL/categories", name = "Categories 分类" }, # If enabled "taxonomies"
-    { url = "$BASE_URL/about", name = "About 关于" },
-    { url = "$BASE_URL/rss.xml", name = "RSS" },
+    { url = "$BASE_URL", name = "主页" },
+    { url = "$BASE_URL/categories", name = "分类" }, # If enabled "taxonomies"
+    { url = "$BASE_URL/tags", name = "标签" },       # If enabled "taxonomies"
+    { url = "$BASE_URL/about", name = "关于" },
 ]
