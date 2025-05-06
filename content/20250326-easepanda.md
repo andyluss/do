@@ -1,6 +1,6 @@
 ---
 title: 范式2：🐼慢熊猫EasePanda
-subTitle: 基于本地优先技术，辅助自主自省团结互助养生慢生活
+description: 基于本地优先技术，辅助自主自省团结互助养生慢生活
 date: 2025-03-26
 updated: 2025-04-11
 taxonomies:
